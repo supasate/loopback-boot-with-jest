@@ -1,0 +1,19 @@
+{
+  "name": "Car",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "wheels": {
+      "type": "number",
+      "required": true,
+      "default": 4
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
